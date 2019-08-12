@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: #121212;
+    color: #fff;
+}
+
+.container {
+    padding: 10px;
+}
+
+.container h1 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 160px;
+    margin-bottom: 50px;
+}
+
+.container #links {
+    text-align: center;
+}
+
+.container #links a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background: #CC0000;
+    border: 1px solid #CC0000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    transition: all 0.5s;
+}
+
+@media (max-width: 500px) {
+    .container #links a {
+        display: block;
+        width: 75%;
+        margin: 20px auto;
+    }
+}
